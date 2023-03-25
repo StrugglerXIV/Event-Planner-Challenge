@@ -1,0 +1,22 @@
+.inputClass {
+    width: 500px;
+}
+
+time {
+    width: 100px;
+    height: 50px;
+}
+
+.scheduleTable {
+    display: flex;
+    flex-direction: column;
+}
+
+row {
+    display: inline-flex;
+    align-items: baseline;
+}
+
+.btn {
+    margin-left: 10px;
+}
