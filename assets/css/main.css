@@ -1,10 +1,18 @@
 .inputClass {
     width: 500px;
+    height: 75px;
 }
 
 time {
     width: 100px;
-    height: 50px;
+    height: 70px;
+    border: dashed;
+    border-color: rgba(128, 128, 128, 0.486);
+    position: absolute;
+    margin-left: -110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .scheduleTable {
@@ -14,9 +22,11 @@ time {
 
 row {
     display: inline-flex;
-    align-items: baseline;
+    align-items: center;
+    text-align: center;
 }
 
 .btn {
-    margin-left: 10px;
+    height: 80px;
+    width: 80px;
 }
