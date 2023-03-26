@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <title>Event Planner</title>
 </head>
@@ -13,23 +14,23 @@
         <!--title-->
     <h1>Work Day Scheduler</h1>
     <!--Description-->
-    <h2>A simple calendar app for shcedulng your work day</h2>
+    <h2>A simple calendar app for scheduling your work day</h2>
     <!--Current date and time-->
     <h2 id="currentDay"></h2>
     <!--Confirmation message-->
-    <p>Appointment Added to xx</p>
+    <p id="locationConfirmed"></p>
     </div>
     <!--schedule table-->
     <div class="scheduleTable">
-     <row><time> 09AM</time><input type="text" class="inputClass" id="field1"><button class='btn' id="saveBtn1">Save</button></row>
-     <row><time> 10AM</time><input type="text" class="inputClass" id="field2"><button class='btn' id="saveBtn2">Save</button></row>
-     <row><time> 11AM</time><input type="text" class="inputClass" id="field3"><button class='btn' id="saveBtn3">Save</button></row>
-     <row><time> 12PM</time><input type="text" class="inputClass" id="field4"><button class='btn' id="saveBtn4">Save</button></row>
-     <row><time> 01PM</time><input type="text" class="inputClass" id="field5"><button class='btn' id="saveBtn5">Save</button></row>
-     <row><time> 02PM</time><input type="text" class="inputClass" id="field6"><button class='btn' id="saveBtn6">Save</button></row>
-     <row><time> 03PM</time><input type="text" class="inputClass" id="field7"><button class='btn' id="saveBtn7">Save</button></row>
-     <row><time> 04PM</time><input type="text" class="inputClass" id="field8"><button class='btn' id="saveBtn8">Save</button></row>
-     <row><time> 05PM</time><input type="text" class="inputClass" id="field9"><button class='btn' id="saveBtn9">Save</button></row>
+     <row><time id="time1"></time><input type="text" class="inputClass" id="field1"><button class='btn' id="saveBtn1">Save</button></row>
+     <row><time id="time2"></time><input type="text" class="inputClass" id="field2"><button class='btn' id="saveBtn2">Save</button></row>
+     <row><time id="time3"></time><input type="text" class="inputClass" id="field3"><button class='btn' id="saveBtn3">Save</button></row>
+     <row><time id="time4"></time><input type="text" class="inputClass" id="field4"><button class='btn' id="saveBtn4">Save</button></row>
+     <row><time id="time5"></time><input type="text" class="inputClass" id="field5"><button class='btn' id="saveBtn5">Save</button></row>
+     <row><time id="time6"></time><input type="text" class="inputClass" id="field6"><button class='btn' id="saveBtn6">Save</button></row>
+     <row><time id="time7"></time><input type="text" class="inputClass" id="field7"><button class='btn' id="saveBtn7">Save</button></row>
+     <row><time id="time8"></time><input type="text" class="inputClass" id="field8"><button class='btn' id="saveBtn8">Save</button></row>
+     <row><time id="time9"></time><input type="text" class="inputClass" id="field9"><button class='btn' id="saveBtn9">Save</button></row>
     </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js"></script>
