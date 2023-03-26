@@ -124,7 +124,7 @@ function colorize() {
     if (dayjs().isSame(dayjs().hour(9))) {
         document.getElementById('field1').style.backgroundColor = "red";
     } else if (dayjs().isAfter(dayjs().hour(9))) {
-        document.getElementById('field1').style.backgroundColor = "grey";
+        document.getElementById('field1').style.backgroundColor = "bisque";
     } else {
         document.getElementById('field1').style.backgroundColor = "green";
     }
@@ -132,7 +132,7 @@ function colorize() {
     if (dayjs().isSame(dayjs().hour(10))) {
         document.getElementById('field2').style.backgroundColor = "red";
     } else if (dayjs().isAfter(dayjs().hour(10))) {
-        document.getElementById('field2').style.backgroundColor = "grey";
+        document.getElementById('field2').style.backgroundColor = "bisque";
     } else {
         document.getElementById('field2').style.backgroundColor = "green";
     }
@@ -140,7 +140,7 @@ function colorize() {
     if (dayjs().isSame(dayjs().hour(11))) {
         document.getElementById('field3').style.backgroundColor = "red";
     } else if (dayjs().isAfter(dayjs().hour(10))) {
-        document.getElementById('field3').style.backgroundColor = "grey";
+        document.getElementById('field3').style.backgroundColor = "bisque";
     } else {
         document.getElementById('field3').style.backgroundColor = "green";
     }
@@ -148,7 +148,7 @@ function colorize() {
     if (dayjs().isSame(dayjs().hour(12))) {
         document.getElementById('field4').style.backgroundColor = "red";
     } else if (dayjs().isAfter(dayjs().hour(12))) {
-        document.getElementById('field4').style.backgroundColor = "grey";
+        document.getElementById('field4').style.backgroundColor = "bisque";
     } else {
         document.getElementById('field4').style.backgroundColor = "green";
     }
@@ -156,7 +156,7 @@ function colorize() {
     if (dayjs().isSame(dayjs().hour(13))) {
         document.getElementById('field5').style.backgroundColor = "red";
     } else if (dayjs().isAfter(dayjs().hour(13))) {
-        document.getElementById('field5').style.backgroundColor = "grey";
+        document.getElementById('field5').style.backgroundColor = "bisque";
     } else {
         document.getElementById('field5').style.backgroundColor = "green";
     }
@@ -164,7 +164,7 @@ function colorize() {
     if (dayjs().isSame(dayjs().hour(14))) {
         document.getElementById('field6').style.backgroundColor = "red";
     } else if (dayjs().isAfter(dayjs().hour(14))) {
-        document.getElementById('field6').style.backgroundColor = "grey";
+        document.getElementById('field6').style.backgroundColor = "bisque";
     } else {
         document.getElementById('field6').style.backgroundColor = "green";
     }
@@ -172,7 +172,7 @@ function colorize() {
     if (dayjs().isSame(dayjs().hour(15))) {
         document.getElementById('field7').style.backgroundColor = "red";
     } else if (dayjs().isAfter(dayjs().hour(15))) {
-        document.getElementById('field7').style.backgroundColor = "grey";
+        document.getElementById('field7').style.backgroundColor = "bisque";
     } else {
         document.getElementById('field7').style.backgroundColor = "green";
     }
@@ -180,7 +180,7 @@ function colorize() {
     if (dayjs().isSame(dayjs().hour(16))) {
         document.getElementById('field8').style.backgroundColor = "red";
     } else if (dayjs().isAfter(dayjs().hour(16))) {
-        document.getElementById('field8').style.backgroundColor = "grey";
+        document.getElementById('field8').style.backgroundColor = "bisque";
     } else {
         document.getElementById('field8').style.backgroundColor = "green";
     }
@@ -188,7 +188,7 @@ function colorize() {
     if (dayjs().isSame(dayjs().hour(17))) {
         document.getElementById('field9').style.backgroundColor = "red";
     } else if (dayjs().isAfter(dayjs().hour(17))) {
-        document.getElementById('field9').style.backgroundColor = "grey";
+        document.getElementById('field9').style.backgroundColor = "bisque";
     } else {
         document.getElementById('field9').style.backgroundColor = "green";
     }
